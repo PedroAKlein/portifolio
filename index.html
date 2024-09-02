@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background-color: #272727;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .intro h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .intro p {
+            font-size: 1.2em;
+            color: #666;
+        }
+
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .portfolio-item {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+            border-radius: 15px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+
+        .portfolio-item:hover {
+            transform: scale(1.05);
+        }
+
+        .portfolio-item h3 {
+            margin-bottom: 10px;
+        }
+
+        .portfolio-item img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin-bottom: 5px;
+        }
+
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Pedro Augusto</h1>
+    </header>
+
+    <nav>
+        <ul>
+
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section class="intro">
+            <h1>Bem-vindo ao meu Portfólio</h1>
+            <p>Este é um espaço onde apresento alguns dos meus trabalhos recentes. Confira abaixo!</p>
+        </section>
+
+        <section class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="/ilhaVoadoraEpicaD+doMine.png">
+                <h3>Ilha Voadora</h3>
+                <p>Em 2022, eu construi, no Minecraft, uma ilha voadora na mão, sem uso de criativo, apenas como decoração para meu portal do nether superior ao nivel da bedrock, mas perdi o mundo, sad.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="/jogoMuitoManeiro.png">
+                <h3>Platinei A Difficult Game About Climbing</h3>
+                <p>No começo do ano de 2024, aproximadamente, joguei A Difficult Game About Climbing pela primeira vez, depois de dias, cheguei ao topo da montanha, e passei das nuvens, vendo o final verdadeiro, e platinando o jogo,</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="/medoUIIII.png">
+                <h3>Joguei Outlast</h3>
+                <p>Como um gamer medroso, nunca joguei muitos jogo de terror, então para começar, decidi jogar Outlast, deu muito medo, muito mesmo, não terminei, mas pretendo. Mesmo o ato de iniciar o jogo é uma vitória pra mim.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="/jogodeZumbiMuitoHard.png">
+                <h3>Me tornei bom em Project Zomboid</h3>
+                <p>Eu, eu, me tornei um jogador bom de PZ, jogo com muitas mecânicas nunca foi o meu forte, mas de algum jeito, consegui ficar bom.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Pedro Augusto</p>
+        <p>Clique -> <a href="https://www.youtube.com/watch?v=GFq6wH5JR2A">Contato</a></p>
+    </footer>
+
+</body>
+
+</html>
